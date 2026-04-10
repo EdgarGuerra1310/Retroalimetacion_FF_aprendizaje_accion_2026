@@ -1,0 +1,1575 @@
+{
+    "feedbacks": [
+        {
+            "id": 22498,
+            "course": 2501,
+            "name": "U1 S1: Aplicación en la práctica/",
+            "intro": "<div id=\"inst06\" class=\"row\" style=\"margin: 0;text-align: center;\">\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/url/view.php?id=195284\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253570/mod_feedback/intro/1.actividad-interior.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/course/view.php?id=2501&amp;section=2\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253570/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\" style=\"/* display: flex; *//* justify-content: flex-end; */\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/feedback/view.php?id=195286\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253570/mod_feedback/intro/3.siguiente-actividad.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n</div>\r\n\r\n\r\n<script>\r\n    (function() {\r\n        var sectionIds = ['page-header'];\r\n        sectionIds.forEach(function(sectionId) {\r\n            var element = document.getElementById(sectionId);\r\n            if (element) {\r\n                element.style.setProperty('display', 'none', 'important');\r\n            }\r\n        });\r\n    })();\r\n</script>\r\n<br>\r\n<h2 style=\"text-align: center;color: #00315f;\">Unidad 1 Sesión 1</h2>\r\n<h2 style=\"text-align: center;color: #00315f;\">Aplicación en la práctica</h2>\r\n<br>\r\n<div style=\"text-align: justify;padding: 20px;border: solid 3px #f9af2c;border-radius: 1em;box-shadow: 5px 5px #f9af2c;background: #fff;margin: 2em;\">\r\n    <p style=\"font-size: 1.2em; text-align: justify; padding: 0px 20px;\">Estimado docente:</p>\r\n    <p style=\"   font-size: 1.2em;    text-align: justify;    padding: 0 20px;    font-weight: 900;\">Este es el momento de aplicar lo aprendido en esta sesión. Lea y responda:</p>\r\n</div>",
+            "introformat": 1,
+            "lang": "",
+            "anonymous": 2,
+            "email_notification": false,
+            "multiple_submit": false,
+            "autonumbering": false,
+            "site_after_submit": "https://campusvirtual-sifods.minedu.gob.pe/mod/feedback/view.php?id=195286",
+            "page_after_submit": "",
+            "page_after_submitformat": 1,
+            "publish_stats": false,
+            "timeopen": 0,
+            "timeclose": 0,
+            "timemodified": 1771881342,
+            "completionsubmit": true,
+            "coursemodule": 195285,
+            "introfiles": [
+                {
+                    "filename": "1.actividad-interior.png",
+                    "filepath": "/",
+                    "filesize": 10347,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253570/mod_feedback/intro/1.actividad-interior.png",
+                    "timemodified": 1771433506,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "2_siguiente-antividad.png",
+                    "filepath": "/",
+                    "filesize": 12293,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253570/mod_feedback/intro/2_siguiente-antividad.png",
+                    "timemodified": 1771433506,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "3.siguiente-actividad.png",
+                    "filepath": "/",
+                    "filesize": 11119,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253570/mod_feedback/intro/3.siguiente-actividad.png",
+                    "timemodified": 1771433506,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "4_actividad-anterior.png",
+                    "filepath": "/",
+                    "filesize": 11497,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253570/mod_feedback/intro/4_actividad-anterior.png",
+                    "timemodified": 1771433506,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "5_regresar-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 12295,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253570/mod_feedback/intro/5_regresar-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1771433506,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "Recurso 131.png",
+                    "filepath": "/",
+                    "filesize": 9354,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253570/mod_feedback/intro/Recurso%20131.png",
+                    "timemodified": 1771433506,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "volver-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 10215,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253570/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1771433506,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                }
+            ]
+        },
+        {
+            "id": 22499,
+            "course": 2501,
+            "name": "U1 S1: Autoevaluación/",
+            "intro": "<div id=\"inst06\" class=\"row\" style=\"margin: 0;text-align: center;\">\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/feedback/view.php?id=195285\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253571/mod_feedback/intro/1.actividad-interior.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/course/view.php?id=2501&amp;section=2\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253571/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\" style=\"/* display: flex; *//* justify-content: flex-end; */\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/resource/view.php?id=195287\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253571/mod_feedback/intro/3.siguiente-actividad.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n</div>\r\n\r\n\r\n<script>\r\n    (function() {\r\n        var sectionIds = ['page-header'];\r\n        sectionIds.forEach(function(sectionId) {\r\n            var element = document.getElementById(sectionId);\r\n            if (element) {\r\n                element.style.setProperty('display', 'none', 'important');\r\n            }\r\n        });\r\n    })();\r\n</script>\r\n<br>\r\n<h2 style=\"text-align: center;color: #00315f;\">Unidad 1 Sesión 1</h2>\r\n<h2 style=\"text-align: center;color: #00315f;\">Autoevaluación</h2>\r\n<br>\r\n<div style=\"text-align: justify;padding: 20px;border: solid 3px #db8825;border-radius: 1em;box-shadow: 5px 5px #db8825;background: #fff;margin: 2em;\">\r\n    <p style=\"font-size: 1.2em; text-align: justify; padding: 0px 20px;\">Estimado docente:</p>\r\n    <p style=\"   font-size: 1.2em;    text-align: justify;    padding: 0 20px;    font-weight: 900;\">A continuación, te brindamos una lista de cotejo para que puedas autoevaluar la actividad de aplicación en la práctica que realizaste:</p>\r\n</div>",
+            "introformat": 1,
+            "lang": "",
+            "anonymous": 2,
+            "email_notification": false,
+            "multiple_submit": false,
+            "autonumbering": false,
+            "site_after_submit": "https://campusvirtual-sifods.minedu.gob.pe/mod/resource/view.php?id=195287",
+            "page_after_submit": "",
+            "page_after_submitformat": 1,
+            "publish_stats": false,
+            "timeopen": 0,
+            "timeclose": 0,
+            "timemodified": 1771881354,
+            "completionsubmit": true,
+            "coursemodule": 195286,
+            "introfiles": [
+                {
+                    "filename": "1.actividad-interior.png",
+                    "filepath": "/",
+                    "filesize": 10347,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253571/mod_feedback/intro/1.actividad-interior.png",
+                    "timemodified": 1771433507,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "1-actividad-anterior.png",
+                    "filepath": "/",
+                    "filesize": 15428,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253571/mod_feedback/intro/1-actividad-anterior.png",
+                    "timemodified": 1771433507,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "2_siguiente-antividad.png",
+                    "filepath": "/",
+                    "filesize": 12293,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253571/mod_feedback/intro/2_siguiente-antividad.png",
+                    "timemodified": 1771433507,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "2-volver-a-la-sesion.png",
+                    "filepath": "/",
+                    "filesize": 15285,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253571/mod_feedback/intro/2-volver-a-la-sesion.png",
+                    "timemodified": 1771433507,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "3.siguiente-actividad.png",
+                    "filepath": "/",
+                    "filesize": 11119,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253571/mod_feedback/intro/3.siguiente-actividad.png",
+                    "timemodified": 1771433507,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "3-siguiente-actividad.png",
+                    "filepath": "/",
+                    "filesize": 16313,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253571/mod_feedback/intro/3-siguiente-actividad.png",
+                    "timemodified": 1771433507,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "4_actividad-anterior.png",
+                    "filepath": "/",
+                    "filesize": 11497,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253571/mod_feedback/intro/4_actividad-anterior.png",
+                    "timemodified": 1771433507,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "5_regresar-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 12295,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253571/mod_feedback/intro/5_regresar-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1771433507,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "Recurso 131.png",
+                    "filepath": "/",
+                    "filesize": 9354,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253571/mod_feedback/intro/Recurso%20131.png",
+                    "timemodified": 1771433507,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "volver-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 10215,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253571/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1771433507,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                }
+            ]
+        },
+        {
+            "id": 22500,
+            "course": 2501,
+            "name": "U1 S2: Aplicación en la práctica/",
+            "intro": "<div id=\"inst06\" class=\"row\" style=\"margin: 0;text-align: center;\">\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/url/view.php?id=195292\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253578/mod_feedback/intro/1.actividad-interior.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/course/view.php?id=2501&amp;section=3\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253578/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\" style=\"/* display: flex; *//* justify-content: flex-end; */\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/feedback/view.php?id=195294\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253578/mod_feedback/intro/3.siguiente-actividad.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n</div>\r\n\r\n\r\n<script>\r\n    (function() {\r\n        var sectionIds = ['page-header'];\r\n        sectionIds.forEach(function(sectionId) {\r\n            var element = document.getElementById(sectionId);\r\n            if (element) {\r\n                element.style.setProperty('display', 'none', 'important');\r\n            }\r\n        });\r\n    })();\r\n</script>\r\n<br>\r\n<h2 style=\"text-align: center;color: #00315f;\">Unidad 1 Sesión 2</h2>\r\n<h2 style=\"text-align: center;color: #00315f;\">Aplicación en la práctica</h2>\r\n<br>\r\n<div style=\"text-align: justify;padding: 20px;border: solid 3px #f9af2c;border-radius: 1em;box-shadow: 5px 5px #f9af2c;background: #fff;margin: 2em;\">\r\n    <p style=\"font-size: 1.2em; text-align: justify; padding: 0px 20px;\">Estimado docente:</p>\r\n    <p style=\"   font-size: 1.2em;    text-align: justify;    padding: 0 20px;    font-weight: 900;\">Este es el momento de aplicar lo aprendido en esta sesión. Lea y responda:</p>\r\n</div>",
+            "introformat": 1,
+            "lang": "",
+            "anonymous": 2,
+            "email_notification": false,
+            "multiple_submit": false,
+            "autonumbering": false,
+            "site_after_submit": "https://campusvirtual-sifods.minedu.gob.pe/mod/feedback/view.php?id=195294",
+            "page_after_submit": "",
+            "page_after_submitformat": 1,
+            "publish_stats": false,
+            "timeopen": 0,
+            "timeclose": 0,
+            "timemodified": 1771881527,
+            "completionsubmit": true,
+            "coursemodule": 195293,
+            "introfiles": [
+                {
+                    "filename": "1.actividad-interior.png",
+                    "filepath": "/",
+                    "filesize": 10347,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253578/mod_feedback/intro/1.actividad-interior.png",
+                    "timemodified": 1771433508,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "2_siguiente-antividad.png",
+                    "filepath": "/",
+                    "filesize": 12293,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253578/mod_feedback/intro/2_siguiente-antividad.png",
+                    "timemodified": 1771433508,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "3.siguiente-actividad.png",
+                    "filepath": "/",
+                    "filesize": 11119,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253578/mod_feedback/intro/3.siguiente-actividad.png",
+                    "timemodified": 1771433508,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "4_actividad-anterior.png",
+                    "filepath": "/",
+                    "filesize": 11497,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253578/mod_feedback/intro/4_actividad-anterior.png",
+                    "timemodified": 1771433508,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "5_regresar-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 12295,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253578/mod_feedback/intro/5_regresar-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1771433508,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "Recurso 131.png",
+                    "filepath": "/",
+                    "filesize": 9354,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253578/mod_feedback/intro/Recurso%20131.png",
+                    "timemodified": 1771433508,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "volver-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 10215,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253578/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1771433508,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                }
+            ]
+        },
+        {
+            "id": 22501,
+            "course": 2501,
+            "name": "U1 S2: Autoevaluación/",
+            "intro": "<div id=\"inst06\" class=\"row\" style=\"margin: 0;text-align: center;\">\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/feedback/view.php?id=195293\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253579/mod_feedback/intro/1.actividad-interior.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/course/view.php?id=2501&amp;section=3\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253579/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\" style=\"/* display: flex; *//* justify-content: flex-end; */\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/resource/view.php?id=195295\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253579/mod_feedback/intro/3.siguiente-actividad.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n</div>\r\n\r\n\r\n<script>\r\n    (function() {\r\n        var sectionIds = ['page-header'];\r\n        sectionIds.forEach(function(sectionId) {\r\n            var element = document.getElementById(sectionId);\r\n            if (element) {\r\n                element.style.setProperty('display', 'none', 'important');\r\n            }\r\n        });\r\n    })();\r\n</script>\r\n<br>\r\n<h2 style=\"text-align: center;color: #4c0176;\">Unidad 1 Sesión 2</h2>\r\n<h2 style=\"text-align: center;color: #4c0176;\">Autoevaluación</h2>\r\n<br>\r\n<div style=\"text-align: justify;padding: 20px;border: solid 3px #2a4c7f;border-radius: 1em;box-shadow: 5px 5px #2a4c7f;background: #fff;margin: 2em;\">\r\n    <p style=\"font-size: 1.2em; text-align: justify; padding: 0px 20px;\">Estimado docente:</p>\r\n    <p style=\"   font-size: 1.2em;    text-align: justify;    padding: 0 20px;    font-weight: 900;\">A continuación, te brindamos una lista de cotejo para que puedas autoevaluar la actividad de aplicación en la práctica que realizaste:</p>\r\n</div>",
+            "introformat": 1,
+            "lang": "",
+            "anonymous": 2,
+            "email_notification": false,
+            "multiple_submit": false,
+            "autonumbering": false,
+            "site_after_submit": "https://campusvirtual-sifods.minedu.gob.pe/mod/resource/view.php?id=195295",
+            "page_after_submit": "",
+            "page_after_submitformat": 1,
+            "publish_stats": false,
+            "timeopen": 0,
+            "timeclose": 0,
+            "timemodified": 1771881540,
+            "completionsubmit": true,
+            "coursemodule": 195294,
+            "introfiles": [
+                {
+                    "filename": "1.actividad-interior.png",
+                    "filepath": "/",
+                    "filesize": 10347,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253579/mod_feedback/intro/1.actividad-interior.png",
+                    "timemodified": 1771433509,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "1_volver-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 11206,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253579/mod_feedback/intro/1_volver-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1771433509,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "1-actividad-anterior.png",
+                    "filepath": "/",
+                    "filesize": 15428,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253579/mod_feedback/intro/1-actividad-anterior.png",
+                    "timemodified": 1771433509,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "2_siguiente-antividad.png",
+                    "filepath": "/",
+                    "filesize": 12293,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253579/mod_feedback/intro/2_siguiente-antividad.png",
+                    "timemodified": 1771433509,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "2-volver-a-la-sesion.png",
+                    "filepath": "/",
+                    "filesize": 15285,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253579/mod_feedback/intro/2-volver-a-la-sesion.png",
+                    "timemodified": 1771433509,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "3.siguiente-actividad.png",
+                    "filepath": "/",
+                    "filesize": 11119,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253579/mod_feedback/intro/3.siguiente-actividad.png",
+                    "timemodified": 1771433509,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "3-siguiente-actividad.png",
+                    "filepath": "/",
+                    "filesize": 16313,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253579/mod_feedback/intro/3-siguiente-actividad.png",
+                    "timemodified": 1771433509,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "4_actividad-anterior.png",
+                    "filepath": "/",
+                    "filesize": 11497,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253579/mod_feedback/intro/4_actividad-anterior.png",
+                    "timemodified": 1771433509,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "Recurso 131.png",
+                    "filepath": "/",
+                    "filesize": 9354,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253579/mod_feedback/intro/Recurso%20131.png",
+                    "timemodified": 1771433509,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "volver-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 10215,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253579/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1771433509,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                }
+            ]
+        },
+        {
+            "id": 22502,
+            "course": 2501,
+            "name": "U2 S1: Aplicación en la práctica/",
+            "intro": "<div id=\"inst06\" class=\"row\" style=\"margin: 0;text-align: center;\">\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/url/view.php?id=195299\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253585/mod_feedback/intro/1.actividad-interior.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/course/view.php?id=2501&amp;section=4\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253585/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\" style=\"/* display: flex; *//* justify-content: flex-end; */\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/feedback/view.php?id=195301\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253585/mod_feedback/intro/3.siguiente-actividad.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n</div>\r\n\r\n\r\n<script>\r\n    (function() {\r\n        var sectionIds = ['page-header'];\r\n        sectionIds.forEach(function(sectionId) {\r\n            var element = document.getElementById(sectionId);\r\n            if (element) {\r\n                element.style.setProperty('display', 'none', 'important');\r\n            }\r\n        });\r\n    })();\r\n</script>\r\n<br>\r\n<h2 style=\"text-align: center;color: #00315f;\">Unidad 2 Sesión 1</h2>\r\n<h2 style=\"text-align: center;color: #00315f;\">Aplicación en la práctica</h2>\r\n<br>\r\n<div style=\"text-align: justify;padding: 20px;border: solid 3px #f9af2c;border-radius: 1em;box-shadow: 5px 5px #f9af2c;background: #fff;margin: 2em;\">\r\n    <p style=\"font-size: 1.2em; text-align: justify; padding: 0px 20px;\">Estimado docente:</p>\r\n    <p style=\"   font-size: 1.2em;    text-align: justify;    padding: 0 20px;    font-weight: 900;\">Este es el momento de aplicar lo aprendido en esta sesión. Lea y responda:</p>\r\n</div>",
+            "introformat": 1,
+            "lang": "",
+            "anonymous": 2,
+            "email_notification": false,
+            "multiple_submit": false,
+            "autonumbering": false,
+            "site_after_submit": "https://campusvirtual-sifods.minedu.gob.pe/mod/feedback/view.php?id=195301",
+            "page_after_submit": "",
+            "page_after_submitformat": 1,
+            "publish_stats": false,
+            "timeopen": 0,
+            "timeclose": 0,
+            "timemodified": 1771881602,
+            "completionsubmit": true,
+            "coursemodule": 195300,
+            "introfiles": [
+                {
+                    "filename": "1.actividad-interior.png",
+                    "filepath": "/",
+                    "filesize": 10347,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253585/mod_feedback/intro/1.actividad-interior.png",
+                    "timemodified": 1771433510,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "2_siguiente-antividad.png",
+                    "filepath": "/",
+                    "filesize": 12293,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253585/mod_feedback/intro/2_siguiente-antividad.png",
+                    "timemodified": 1771433510,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "3.siguiente-actividad.png",
+                    "filepath": "/",
+                    "filesize": 11119,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253585/mod_feedback/intro/3.siguiente-actividad.png",
+                    "timemodified": 1771433510,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "4_actividad-anterior.png",
+                    "filepath": "/",
+                    "filesize": 11497,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253585/mod_feedback/intro/4_actividad-anterior.png",
+                    "timemodified": 1771433510,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "5_regresar-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 12295,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253585/mod_feedback/intro/5_regresar-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1771433510,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "Recurso 131.png",
+                    "filepath": "/",
+                    "filesize": 9354,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253585/mod_feedback/intro/Recurso%20131.png",
+                    "timemodified": 1771433510,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "volver-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 10215,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253585/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1771433510,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                }
+            ]
+        },
+        {
+            "id": 22503,
+            "course": 2501,
+            "name": "U2 S1: Autoevaluación/",
+            "intro": "<div id=\"inst06\" class=\"row\" style=\"margin: 0;text-align: center;\">\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/feedback/view.php?id=195300\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253586/mod_feedback/intro/1.actividad-interior.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/course/view.php?id=2501&amp;section=4\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253586/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\" style=\"/* display: flex; *//* justify-content: flex-end; */\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/resource/view.php?id=195302\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253586/mod_feedback/intro/3.siguiente-actividad.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n</div>\r\n\r\n\r\n<script>\r\n    (function() {\r\n        var sectionIds = ['page-header'];\r\n        sectionIds.forEach(function(sectionId) {\r\n            var element = document.getElementById(sectionId);\r\n            if (element) {\r\n                element.style.setProperty('display', 'none', 'important');\r\n            }\r\n        });\r\n    })();\r\n</script>\r\n<br>\r\n<h2 style=\"text-align: center;color: #00315f;\">Unidad 2 Sesión 1</h2>\r\n<h2 style=\"text-align: center;color: #00315f;\">Autoevaluación</h2>\r\n<br>\r\n<div style=\"text-align: justify;padding: 20px;border: solid 3px #db8925;border-radius: 1em;box-shadow: 5px 5px #db8925;background: #fff;margin: 2em;\">\r\n    <p style=\"font-size: 1.2em; text-align: justify; padding: 0px 20px;\">Estimado docente:</p>\r\n    <p style=\"   font-size: 1.2em;    text-align: justify;    padding: 0 20px;    font-weight: 900;\">A continuación, te brindamos una lista de cotejo para que puedas autoevaluar la actividad de aplicación en la práctica que realizaste:</p>\r\n</div>",
+            "introformat": 1,
+            "lang": "",
+            "anonymous": 2,
+            "email_notification": false,
+            "multiple_submit": false,
+            "autonumbering": false,
+            "site_after_submit": "https://campusvirtual-sifods.minedu.gob.pe/mod/resource/view.php?id=195302",
+            "page_after_submit": "",
+            "page_after_submitformat": 1,
+            "publish_stats": false,
+            "timeopen": 0,
+            "timeclose": 0,
+            "timemodified": 1771881613,
+            "completionsubmit": true,
+            "coursemodule": 195301,
+            "introfiles": [
+                {
+                    "filename": "1.actividad-interior.png",
+                    "filepath": "/",
+                    "filesize": 10347,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253586/mod_feedback/intro/1.actividad-interior.png",
+                    "timemodified": 1771433510,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "1_volver-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 11206,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253586/mod_feedback/intro/1_volver-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1771433510,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "1-actividad-anterior.png",
+                    "filepath": "/",
+                    "filesize": 15428,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253586/mod_feedback/intro/1-actividad-anterior.png",
+                    "timemodified": 1771433510,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "2_siguiente-antividad.png",
+                    "filepath": "/",
+                    "filesize": 12293,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253586/mod_feedback/intro/2_siguiente-antividad.png",
+                    "timemodified": 1771433510,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "2-volver-a-la-sesion.png",
+                    "filepath": "/",
+                    "filesize": 15285,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253586/mod_feedback/intro/2-volver-a-la-sesion.png",
+                    "timemodified": 1771433510,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "3.siguiente-actividad.png",
+                    "filepath": "/",
+                    "filesize": 11119,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253586/mod_feedback/intro/3.siguiente-actividad.png",
+                    "timemodified": 1771433511,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "3-siguiente-actividad.png",
+                    "filepath": "/",
+                    "filesize": 16313,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253586/mod_feedback/intro/3-siguiente-actividad.png",
+                    "timemodified": 1771433510,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "4_actividad-anterior.png",
+                    "filepath": "/",
+                    "filesize": 11497,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253586/mod_feedback/intro/4_actividad-anterior.png",
+                    "timemodified": 1771433510,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "Recurso 131.png",
+                    "filepath": "/",
+                    "filesize": 9354,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253586/mod_feedback/intro/Recurso%20131.png",
+                    "timemodified": 1771433510,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "volver-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 10215,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253586/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1771433511,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                }
+            ]
+        },
+        {
+            "id": 22504,
+            "course": 2501,
+            "name": "U2 S2: Aplicación en la práctica/",
+            "intro": "<div id=\"inst06\" class=\"row\" style=\"margin: 0;text-align: center;\">\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/url/view.php?id=195306\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253592/mod_feedback/intro/1.actividad-interior.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/course/view.php?id=2501&amp;section=5\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253592/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\" style=\"/* display: flex; *//* justify-content: flex-end; */\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/feedback/view.php?id=195308\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253592/mod_feedback/intro/3.siguiente-actividad.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n</div>\r\n\r\n\r\n<script>\r\n    (function() {\r\n        var sectionIds = ['page-header'];\r\n        sectionIds.forEach(function(sectionId) {\r\n            var element = document.getElementById(sectionId);\r\n            if (element) {\r\n                element.style.setProperty('display', 'none', 'important');\r\n            }\r\n        });\r\n    })();\r\n</script>\r\n<br>\r\n<h2 style=\"text-align: center;color: #00315f;\">Unidad 2 Sesión 2</h2>\r\n<h2 style=\"text-align: center;color: #00315f;\">Aplicación en la práctica</h2>\r\n<br>\r\n<div style=\"text-align: justify;padding: 20px;border: solid 3px #f9af2c;border-radius: 1em;box-shadow: 5px 5px #f9af2c;background: #fff;margin: 2em;\">\r\n    <p style=\"font-size: 1.2em; text-align: justify; padding: 0px 20px;\">Estimado docente:</p>\r\n    <p style=\"   font-size: 1.2em;    text-align: justify;    padding: 0 20px;    font-weight: 900;\">Este es el momento de aplicar lo aprendido en esta sesión. Lea y responda:</p>\r\n</div>",
+            "introformat": 1,
+            "lang": "",
+            "anonymous": 2,
+            "email_notification": false,
+            "multiple_submit": false,
+            "autonumbering": false,
+            "site_after_submit": "https://campusvirtual-sifods.minedu.gob.pe/mod/feedback/view.php?id=195308",
+            "page_after_submit": "",
+            "page_after_submitformat": 1,
+            "publish_stats": false,
+            "timeopen": 0,
+            "timeclose": 0,
+            "timemodified": 1771881708,
+            "completionsubmit": true,
+            "coursemodule": 195307,
+            "introfiles": [
+                {
+                    "filename": "1.actividad-interior.png",
+                    "filepath": "/",
+                    "filesize": 10347,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253592/mod_feedback/intro/1.actividad-interior.png",
+                    "timemodified": 1771433512,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "2_siguiente-antividad.png",
+                    "filepath": "/",
+                    "filesize": 12293,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253592/mod_feedback/intro/2_siguiente-antividad.png",
+                    "timemodified": 1771433512,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "3.siguiente-actividad.png",
+                    "filepath": "/",
+                    "filesize": 11119,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253592/mod_feedback/intro/3.siguiente-actividad.png",
+                    "timemodified": 1771433512,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "4_actividad-anterior.png",
+                    "filepath": "/",
+                    "filesize": 11497,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253592/mod_feedback/intro/4_actividad-anterior.png",
+                    "timemodified": 1771433512,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "5_regresar-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 12295,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253592/mod_feedback/intro/5_regresar-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1771433512,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "Recurso 131.png",
+                    "filepath": "/",
+                    "filesize": 9354,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253592/mod_feedback/intro/Recurso%20131.png",
+                    "timemodified": 1771433512,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "volver-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 10215,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253592/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1771433512,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                }
+            ]
+        },
+        {
+            "id": 22505,
+            "course": 2501,
+            "name": "U2 S2: Autoevaluación/",
+            "intro": "<div id=\"inst06\" class=\"row\" style=\"margin: 0;text-align: center;\">\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/feedback/view.php?id=195307\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253593/mod_feedback/intro/1.actividad-interior.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/course/view.php?id=2501&amp;section=5\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253593/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\" style=\"/* display: flex; *//* justify-content: flex-end; */\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/resource/view.php?id=195309\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253593/mod_feedback/intro/3.siguiente-actividad.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n</div>\r\n\r\n\r\n<script>\r\n    (function() {\r\n        var sectionIds = ['page-header'];\r\n        sectionIds.forEach(function(sectionId) {\r\n            var element = document.getElementById(sectionId);\r\n            if (element) {\r\n                element.style.setProperty('display', 'none', 'important');\r\n            }\r\n        });\r\n    })();\r\n</script>\r\n<br>\r\n<h2 style=\"text-align: center;color: #00315f;\">Unidad 2 Sesión 2</h2>\r\n<h2 style=\"text-align: center;color: #00315f;\">Autoevaluación</h2>\r\n<br>\r\n<div style=\"text-align: justify;padding: 20px;border: solid 3px #dc8a23;border-radius: 1em;box-shadow: 5px 5px #dc8a23;background: #fff;margin: 2em;\">\r\n    <p style=\"font-size: 1.2em; text-align: justify; padding: 0px 20px;\">Estimado docente:</p>\r\n    <p style=\"   font-size: 1.2em;    text-align: justify;    padding: 0 20px;    font-weight: 900;\">A continuación, te brindamos una lista de cotejo para que puedas autoevaluar la actividad de aplicación en la práctica que realizaste:</p>\r\n</div>",
+            "introformat": 1,
+            "lang": "",
+            "anonymous": 2,
+            "email_notification": false,
+            "multiple_submit": false,
+            "autonumbering": false,
+            "site_after_submit": "https://campusvirtual-sifods.minedu.gob.pe/mod/resource/view.php?id=195309",
+            "page_after_submit": "",
+            "page_after_submitformat": 1,
+            "publish_stats": false,
+            "timeopen": 0,
+            "timeclose": 0,
+            "timemodified": 1771881717,
+            "completionsubmit": true,
+            "coursemodule": 195308,
+            "introfiles": [
+                {
+                    "filename": "1.actividad-interior.png",
+                    "filepath": "/",
+                    "filesize": 10347,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253593/mod_feedback/intro/1.actividad-interior.png",
+                    "timemodified": 1771433512,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "1_volver-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 11206,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253593/mod_feedback/intro/1_volver-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1771433512,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "1-actividad-anterior.png",
+                    "filepath": "/",
+                    "filesize": 15428,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253593/mod_feedback/intro/1-actividad-anterior.png",
+                    "timemodified": 1771433512,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "2_siguiente-antividad.png",
+                    "filepath": "/",
+                    "filesize": 12293,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253593/mod_feedback/intro/2_siguiente-antividad.png",
+                    "timemodified": 1771433512,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "2-volver-a-la-sesion.png",
+                    "filepath": "/",
+                    "filesize": 15285,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253593/mod_feedback/intro/2-volver-a-la-sesion.png",
+                    "timemodified": 1771433512,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "3.siguiente-actividad.png",
+                    "filepath": "/",
+                    "filesize": 11119,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253593/mod_feedback/intro/3.siguiente-actividad.png",
+                    "timemodified": 1771433512,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "3-siguiente-actividad.png",
+                    "filepath": "/",
+                    "filesize": 16313,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253593/mod_feedback/intro/3-siguiente-actividad.png",
+                    "timemodified": 1771433512,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "4_actividad-anterior.png",
+                    "filepath": "/",
+                    "filesize": 11497,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253593/mod_feedback/intro/4_actividad-anterior.png",
+                    "timemodified": 1771433512,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "Recurso 131.png",
+                    "filepath": "/",
+                    "filesize": 9354,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253593/mod_feedback/intro/Recurso%20131.png",
+                    "timemodified": 1771433512,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "volver-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 10215,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253593/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1771433512,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                }
+            ]
+        },
+        {
+            "id": 22506,
+            "course": 2501,
+            "name": "Aprendizaje en acción - Caso 01",
+            "intro": "<div id=\"inst06\" class=\"row\" style=\"margin: 0;text-align: center;\">\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/resource/view.php?id=195311\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253597/mod_feedback/intro/1.actividad-interior.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/course/view.php?id=2501&amp;section=6\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253597/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\" style=\"/* display: flex; *//* justify-content: flex-end; */\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/feedback/view.php?id=195313\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253597/mod_feedback/intro/3.siguiente-actividad.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n</div>\r\n\r\n\r\n<script>\r\n    (function() {\r\n        var sectionIds = ['page-header'];\r\n        sectionIds.forEach(function(sectionId) {\r\n            var element = document.getElementById(sectionId);\r\n            if (element) {\r\n                element.style.setProperty('display', 'none', 'important');\r\n            }\r\n        });\r\n    })();\r\n</script>\r\n<br>\r\n<h2 style=\"text-align: center;color: #00315f;\">Aprendizaje en acción</h2>\r\n<h2 style=\"text-align: center;color: #00315f;\">Caso 01</h2>\r\n<br>\r\n<iframe id=\"inlineFrameExample\" title=\"Inline Frame Example\" width=\"100%\" height=\"200\" src=\"https://formacionenservicio.minedu.gob.pe/cursos_2026/Programa-Formacion-de-Formadores/C1-Formacion-del-adulto-era-digital/FADEIA-Aprendizaje-en-accion-Caso01/\">\r\n</iframe>",
+            "introformat": 1,
+            "lang": "",
+            "anonymous": 2,
+            "email_notification": false,
+            "multiple_submit": false,
+            "autonumbering": false,
+            "site_after_submit": "",
+            "page_after_submit": "",
+            "page_after_submitformat": 1,
+            "publish_stats": false,
+            "timeopen": 0,
+            "timeclose": 0,
+            "timemodified": 1775085581,
+            "completionsubmit": true,
+            "coursemodule": 195312,
+            "introfiles": [
+                {
+                    "filename": "1.actividad-interior.png",
+                    "filepath": "/",
+                    "filesize": 10347,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253597/mod_feedback/intro/1.actividad-interior.png",
+                    "timemodified": 1771433513,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "2_siguiente-antividad.png",
+                    "filepath": "/",
+                    "filesize": 12293,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253597/mod_feedback/intro/2_siguiente-antividad.png",
+                    "timemodified": 1771433513,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "3.siguiente-actividad.png",
+                    "filepath": "/",
+                    "filesize": 11119,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253597/mod_feedback/intro/3.siguiente-actividad.png",
+                    "timemodified": 1771433513,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "4_actividad-anterior.png",
+                    "filepath": "/",
+                    "filesize": 11497,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253597/mod_feedback/intro/4_actividad-anterior.png",
+                    "timemodified": 1771433513,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "5_regresar-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 12295,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253597/mod_feedback/intro/5_regresar-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1771433513,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "Recurso 131.png",
+                    "filepath": "/",
+                    "filesize": 9354,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253597/mod_feedback/intro/Recurso%20131.png",
+                    "timemodified": 1771433513,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "volver-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 10215,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253597/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1771433513,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                }
+            ]
+        },
+        {
+            "id": 22507,
+            "course": 2501,
+            "name": "Aprendizaje en acción - Caso 02",
+            "intro": "<div id=\"inst06\" class=\"row\" style=\"margin: 0;text-align: center;\">\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/feedback/view.php?id=195312\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253598/mod_feedback/intro/1.actividad-interior.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/course/view.php?id=2501&amp;section=6\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253598/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\" style=\"/* display: flex; *//* justify-content: flex-end; */\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/feedback/view.php?id=195314\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253598/mod_feedback/intro/3.siguiente-actividad.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n</div>\r\n\r\n\r\n<script>\r\n    (function() {\r\n        var sectionIds = ['page-header'];\r\n        sectionIds.forEach(function(sectionId) {\r\n            var element = document.getElementById(sectionId);\r\n            if (element) {\r\n                element.style.setProperty('display', 'none', 'important');\r\n            }\r\n        });\r\n    })();\r\n</script>\r\n<br>\r\n<h2 style=\"text-align: center;color: #00315f;\">Aprendizaje en acción</h2>\r\n<h2 style=\"text-align: center;color: #00315f;\">Caso 02</h2>\r\n<br>\r\n<iframe id=\"inlineFrameExample\" title=\"Inline Frame Example\" width=\"100%\" height=\"200\" src=\"https://formacionenservicio.minedu.gob.pe/cursos_2026/Programa-Formacion-de-Formadores/C1-Formacion-del-adulto-era-digital/FADEIA-Aprendizaje-en-accion-Caso02/\">\r\n</iframe>",
+            "introformat": 1,
+            "lang": "",
+            "anonymous": 2,
+            "email_notification": false,
+            "multiple_submit": false,
+            "autonumbering": false,
+            "site_after_submit": "",
+            "page_after_submit": "",
+            "page_after_submitformat": 1,
+            "publish_stats": false,
+            "timeopen": 0,
+            "timeclose": 0,
+            "timemodified": 1775085593,
+            "completionsubmit": true,
+            "coursemodule": 195313,
+            "introfiles": [
+                {
+                    "filename": "1.actividad-interior.png",
+                    "filepath": "/",
+                    "filesize": 10347,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253598/mod_feedback/intro/1.actividad-interior.png",
+                    "timemodified": 1771433514,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "2_siguiente-antividad.png",
+                    "filepath": "/",
+                    "filesize": 12293,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253598/mod_feedback/intro/2_siguiente-antividad.png",
+                    "timemodified": 1771433514,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "3.siguiente-actividad.png",
+                    "filepath": "/",
+                    "filesize": 11119,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253598/mod_feedback/intro/3.siguiente-actividad.png",
+                    "timemodified": 1771433514,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "4_actividad-anterior.png",
+                    "filepath": "/",
+                    "filesize": 11497,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253598/mod_feedback/intro/4_actividad-anterior.png",
+                    "timemodified": 1771433514,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "5_regresar-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 12295,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253598/mod_feedback/intro/5_regresar-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1771433514,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "Recurso 131.png",
+                    "filepath": "/",
+                    "filesize": 9354,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253598/mod_feedback/intro/Recurso%20131.png",
+                    "timemodified": 1771433514,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "volver-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 10215,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253598/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1771433514,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                }
+            ]
+        },
+        {
+            "id": 22508,
+            "course": 2501,
+            "name": "Aprendizaje en acción - Caso 03",
+            "intro": "<div id=\"inst06\" class=\"row\" style=\"margin: 0;text-align: center;\">\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/feedback/view.php?id=195313\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253599/mod_feedback/intro/1.actividad-interior.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/course/view.php?id=2501&amp;section=6\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253599/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\" style=\"/* display: flex; *//* justify-content: flex-end; */\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/feedback/view.php?id=195315\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253599/mod_feedback/intro/3.siguiente-actividad.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n</div>\r\n\r\n\r\n<script>\r\n    (function() {\r\n        var sectionIds = ['page-header'];\r\n        sectionIds.forEach(function(sectionId) {\r\n            var element = document.getElementById(sectionId);\r\n            if (element) {\r\n                element.style.setProperty('display', 'none', 'important');\r\n            }\r\n        });\r\n    })();\r\n</script>\r\n<br>\r\n<h2 style=\"text-align: center;color: #00315f;\">Aprendizaje en acción</h2>\r\n<h2 style=\"text-align: center;color: #00315f;\">Caso 03</h2>\r\n\r\n<iframe id=\"inlineFrameExample\" title=\"Inline Frame Example\" width=\"100%\" height=\"200\" src=\"https://formacionenservicio.minedu.gob.pe/cursos_2026/Programa-Formacion-de-Formadores/C1-Formacion-del-adulto-era-digital/FADEIA-Aprendizaje-en-accion-Caso03/\">\r\n</iframe>",
+            "introformat": 1,
+            "lang": "",
+            "anonymous": 2,
+            "email_notification": false,
+            "multiple_submit": false,
+            "autonumbering": false,
+            "site_after_submit": "",
+            "page_after_submit": "",
+            "page_after_submitformat": 1,
+            "publish_stats": false,
+            "timeopen": 0,
+            "timeclose": 0,
+            "timemodified": 1775085605,
+            "completionsubmit": true,
+            "coursemodule": 195314,
+            "introfiles": [
+                {
+                    "filename": "1.actividad-interior.png",
+                    "filepath": "/",
+                    "filesize": 10347,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253599/mod_feedback/intro/1.actividad-interior.png",
+                    "timemodified": 1771433514,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "2_siguiente-antividad.png",
+                    "filepath": "/",
+                    "filesize": 12293,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253599/mod_feedback/intro/2_siguiente-antividad.png",
+                    "timemodified": 1771433514,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "3.siguiente-actividad.png",
+                    "filepath": "/",
+                    "filesize": 11119,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253599/mod_feedback/intro/3.siguiente-actividad.png",
+                    "timemodified": 1771433514,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "4_actividad-anterior.png",
+                    "filepath": "/",
+                    "filesize": 11497,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253599/mod_feedback/intro/4_actividad-anterior.png",
+                    "timemodified": 1771433514,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "5_regresar-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 12295,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253599/mod_feedback/intro/5_regresar-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1771433514,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "Recurso 131.png",
+                    "filepath": "/",
+                    "filesize": 9354,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253599/mod_feedback/intro/Recurso%20131.png",
+                    "timemodified": 1771433514,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "volver-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 10215,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253599/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1771433514,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                }
+            ]
+        },
+        {
+            "id": 22509,
+            "course": 2501,
+            "name": "Aprendizaje en acción - Caso 04",
+            "intro": "<div id=\"inst06\" class=\"row\" style=\"margin: 0;text-align: center;\">\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/feedback/view.php?id=195314\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253600/mod_feedback/intro/1.actividad-interior.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/course/view.php?id=2501&amp;section=6\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253600/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\" style=\"/* display: flex; *//* justify-content: flex-end; */\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/quiz/view.php?id=195317\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253600/mod_feedback/intro/3.siguiente-actividad.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n</div>\r\n\r\n\r\n<script>\r\n    (function() {\r\n        var sectionIds = ['page-header'];\r\n        sectionIds.forEach(function(sectionId) {\r\n            var element = document.getElementById(sectionId);\r\n            if (element) {\r\n                element.style.setProperty('display', 'none', 'important');\r\n            }\r\n        });\r\n    })();\r\n</script>\r\n<br>\r\n<h2 style=\"text-align: center;color: #00315f;\">Aprendizaje en acción</h2>\r\n<h2 style=\"text-align: center;color: #00315f;\">Caso 04</h2>\r\n<br>\r\n<iframe id=\"inlineFrameExample\" title=\"Inline Frame Example\" width=\"100%\" height=\"200\" src=\"https://formacionenservicio.minedu.gob.pe/cursos_2026/Programa-Formacion-de-Formadores/C1-Formacion-del-adulto-era-digital/FADEIA-Aprendizaje-en-accion-Caso04/\">\r\n</iframe>",
+            "introformat": 1,
+            "lang": "",
+            "anonymous": 2,
+            "email_notification": false,
+            "multiple_submit": false,
+            "autonumbering": false,
+            "site_after_submit": "",
+            "page_after_submit": "",
+            "page_after_submitformat": 1,
+            "publish_stats": false,
+            "timeopen": 0,
+            "timeclose": 0,
+            "timemodified": 1775085618,
+            "completionsubmit": true,
+            "coursemodule": 195315,
+            "introfiles": [
+                {
+                    "filename": "1.actividad-interior.png",
+                    "filepath": "/",
+                    "filesize": 10347,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253600/mod_feedback/intro/1.actividad-interior.png",
+                    "timemodified": 1771433514,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "2_siguiente-antividad.png",
+                    "filepath": "/",
+                    "filesize": 12293,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253600/mod_feedback/intro/2_siguiente-antividad.png",
+                    "timemodified": 1771433514,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "3.siguiente-actividad.png",
+                    "filepath": "/",
+                    "filesize": 11119,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253600/mod_feedback/intro/3.siguiente-actividad.png",
+                    "timemodified": 1771433514,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "4_actividad-anterior.png",
+                    "filepath": "/",
+                    "filesize": 11497,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253600/mod_feedback/intro/4_actividad-anterior.png",
+                    "timemodified": 1771433514,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "5_regresar-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 12295,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253600/mod_feedback/intro/5_regresar-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1771433514,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "Recurso 131.png",
+                    "filepath": "/",
+                    "filesize": 9354,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253600/mod_feedback/intro/Recurso%20131.png",
+                    "timemodified": 1771433514,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "volver-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 10215,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253600/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1771433514,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                }
+            ]
+        },
+        {
+            "id": 22713,
+            "course": 2501,
+            "name": "Aprendizaje en acción - Caso 01 - Segundo Intento/",
+            "intro": "<div id=\"inst06\" class=\"row\" style=\"margin: 0;text-align: center;\">\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/feedback/view.php?id=195315\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297164/mod_feedback/intro/1.actividad-interior.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/course/view.php?id=2501&amp;section=6\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297164/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\" style=\"/* display: flex; *//* justify-content: flex-end; */\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/feedback/view.php?id=196655\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297164/mod_feedback/intro/3.siguiente-actividad.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n</div>\r\n\r\n\r\n<script>\r\n    (function() {\r\n        var sectionIds = ['page-header'];\r\n        sectionIds.forEach(function(sectionId) {\r\n            var element = document.getElementById(sectionId);\r\n            if (element) {\r\n                element.style.setProperty('display', 'none', 'important');\r\n            }\r\n        });\r\n    })();\r\n</script>\r\n<br>\r\n<h2 style=\"text-align: center;color: #00315f;\">Aprendizaje en acción</h2>\r\n<h2 style=\"text-align: center;color: #00315f;\">Caso 01</h2>\r\n<br>\r\n<iframe id=\"inlineFrameExample\" title=\"Inline Frame Example\" width=\"100%\" height=\"200\" src=\"https://formacionenservicio.minedu.gob.pe/cursos_2026/Programa-Formacion-de-Formadores/C1-Formacion-del-adulto-era-digital/FADEIA-Aprendizaje-en-accion-Caso01/\">\r\n</iframe>",
+            "introformat": 1,
+            "lang": "",
+            "anonymous": 2,
+            "email_notification": false,
+            "multiple_submit": false,
+            "autonumbering": false,
+            "site_after_submit": "",
+            "page_after_submit": "",
+            "page_after_submitformat": 1,
+            "publish_stats": false,
+            "timeopen": 0,
+            "timeclose": 0,
+            "timemodified": 1775085634,
+            "completionsubmit": false,
+            "coursemodule": 196653,
+            "introfiles": [
+                {
+                    "filename": "1.actividad-interior.png",
+                    "filepath": "/",
+                    "filesize": 10347,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297164/mod_feedback/intro/1.actividad-interior.png",
+                    "timemodified": 1775061184,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "2_siguiente-antividad.png",
+                    "filepath": "/",
+                    "filesize": 12293,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297164/mod_feedback/intro/2_siguiente-antividad.png",
+                    "timemodified": 1775061184,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "3.siguiente-actividad.png",
+                    "filepath": "/",
+                    "filesize": 11119,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297164/mod_feedback/intro/3.siguiente-actividad.png",
+                    "timemodified": 1775061184,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "4_actividad-anterior.png",
+                    "filepath": "/",
+                    "filesize": 11497,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297164/mod_feedback/intro/4_actividad-anterior.png",
+                    "timemodified": 1775061184,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "5_regresar-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 12295,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297164/mod_feedback/intro/5_regresar-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1775061184,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "Recurso 131.png",
+                    "filepath": "/",
+                    "filesize": 9354,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297164/mod_feedback/intro/Recurso%20131.png",
+                    "timemodified": 1775061184,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "volver-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 10215,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297164/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1775061184,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                }
+            ]
+        },
+        {
+            "id": 22714,
+            "course": 2501,
+            "name": "Aprendizaje en acción - Caso 02 - Segundo Intento/",
+            "intro": "<div id=\"inst06\" class=\"row\" style=\"margin: 0;text-align: center;\">\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/feedback/view.php?id=196653\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297166/mod_feedback/intro/1.actividad-interior.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/course/view.php?id=2501&amp;section=6\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297166/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\" style=\"/* display: flex; *//* justify-content: flex-end; */\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/feedback/view.php?id=196657\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297166/mod_feedback/intro/3.siguiente-actividad.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n</div>\r\n\r\n\r\n<script>\r\n    (function() {\r\n        var sectionIds = ['page-header'];\r\n        sectionIds.forEach(function(sectionId) {\r\n            var element = document.getElementById(sectionId);\r\n            if (element) {\r\n                element.style.setProperty('display', 'none', 'important');\r\n            }\r\n        });\r\n    })();\r\n</script>\r\n<br>\r\n<h2 style=\"text-align: center;color: #00315f;\">Aprendizaje en acción</h2>\r\n<h2 style=\"text-align: center;color: #00315f;\">Caso 02</h2>\r\n<br>\r\n<iframe id=\"inlineFrameExample\" title=\"Inline Frame Example\" width=\"100%\" height=\"200\" src=\"https://formacionenservicio.minedu.gob.pe/cursos_2026/Programa-Formacion-de-Formadores/C1-Formacion-del-adulto-era-digital/FADEIA-Aprendizaje-en-accion-Caso02/\">\r\n</iframe>",
+            "introformat": 1,
+            "lang": "",
+            "anonymous": 2,
+            "email_notification": false,
+            "multiple_submit": false,
+            "autonumbering": false,
+            "site_after_submit": "",
+            "page_after_submit": "",
+            "page_after_submitformat": 1,
+            "publish_stats": false,
+            "timeopen": 0,
+            "timeclose": 0,
+            "timemodified": 1775085644,
+            "completionsubmit": false,
+            "coursemodule": 196655,
+            "introfiles": [
+                {
+                    "filename": "1.actividad-interior.png",
+                    "filepath": "/",
+                    "filesize": 10347,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297166/mod_feedback/intro/1.actividad-interior.png",
+                    "timemodified": 1775061403,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "2_siguiente-antividad.png",
+                    "filepath": "/",
+                    "filesize": 12293,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297166/mod_feedback/intro/2_siguiente-antividad.png",
+                    "timemodified": 1775061403,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "3.siguiente-actividad.png",
+                    "filepath": "/",
+                    "filesize": 11119,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297166/mod_feedback/intro/3.siguiente-actividad.png",
+                    "timemodified": 1775061403,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "4_actividad-anterior.png",
+                    "filepath": "/",
+                    "filesize": 11497,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297166/mod_feedback/intro/4_actividad-anterior.png",
+                    "timemodified": 1775061403,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "5_regresar-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 12295,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297166/mod_feedback/intro/5_regresar-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1775061403,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "Recurso 131.png",
+                    "filepath": "/",
+                    "filesize": 9354,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297166/mod_feedback/intro/Recurso%20131.png",
+                    "timemodified": 1775061403,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "volver-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 10215,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297166/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1775061403,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                }
+            ]
+        },
+        {
+            "id": 22715,
+            "course": 2501,
+            "name": "Aprendizaje en acción - Caso 03 - Segundo Intento/",
+            "intro": "<div id=\"inst06\" class=\"row\" style=\"margin: 0;text-align: center;\">\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/feedback/view.php?id=196655\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297168/mod_feedback/intro/1.actividad-interior.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/course/view.php?id=2501&amp;section=6\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297168/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\" style=\"/* display: flex; *//* justify-content: flex-end; */\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/feedback/view.php?id=196659\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297168/mod_feedback/intro/3.siguiente-actividad.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n</div>\r\n\r\n\r\n<script>\r\n    (function() {\r\n        var sectionIds = ['page-header'];\r\n        sectionIds.forEach(function(sectionId) {\r\n            var element = document.getElementById(sectionId);\r\n            if (element) {\r\n                element.style.setProperty('display', 'none', 'important');\r\n            }\r\n        });\r\n    })();\r\n</script>\r\n<br>\r\n<h2 style=\"text-align: center;color: #00315f;\">Aprendizaje en acción</h2>\r\n<h2 style=\"text-align: center;color: #00315f;\">Caso 03</h2>\r\n\r\n<iframe id=\"inlineFrameExample\" title=\"Inline Frame Example\" width=\"100%\" height=\"200\" src=\"https://formacionenservicio.minedu.gob.pe/cursos_2026/Programa-Formacion-de-Formadores/C1-Formacion-del-adulto-era-digital/FADEIA-Aprendizaje-en-accion-Caso03/\">\r\n</iframe>",
+            "introformat": 1,
+            "lang": "",
+            "anonymous": 2,
+            "email_notification": false,
+            "multiple_submit": false,
+            "autonumbering": false,
+            "site_after_submit": "",
+            "page_after_submit": "",
+            "page_after_submitformat": 1,
+            "publish_stats": false,
+            "timeopen": 0,
+            "timeclose": 0,
+            "timemodified": 1775085660,
+            "completionsubmit": false,
+            "coursemodule": 196657,
+            "introfiles": [
+                {
+                    "filename": "1.actividad-interior.png",
+                    "filepath": "/",
+                    "filesize": 10347,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297168/mod_feedback/intro/1.actividad-interior.png",
+                    "timemodified": 1775061444,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "2_siguiente-antividad.png",
+                    "filepath": "/",
+                    "filesize": 12293,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297168/mod_feedback/intro/2_siguiente-antividad.png",
+                    "timemodified": 1775061444,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "3.siguiente-actividad.png",
+                    "filepath": "/",
+                    "filesize": 11119,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297168/mod_feedback/intro/3.siguiente-actividad.png",
+                    "timemodified": 1775061444,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "4_actividad-anterior.png",
+                    "filepath": "/",
+                    "filesize": 11497,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297168/mod_feedback/intro/4_actividad-anterior.png",
+                    "timemodified": 1775061443,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "5_regresar-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 12295,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297168/mod_feedback/intro/5_regresar-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1775061444,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "Recurso 131.png",
+                    "filepath": "/",
+                    "filesize": 9354,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297168/mod_feedback/intro/Recurso%20131.png",
+                    "timemodified": 1775061443,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "volver-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 10215,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297168/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1775061444,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                }
+            ]
+        },
+        {
+            "id": 22716,
+            "course": 2501,
+            "name": "Aprendizaje en acción - Caso 04 - Segundo Intento/",
+            "intro": "<div id=\"inst06\" class=\"row\" style=\"margin: 0;text-align: center;\">\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/feedback/view.php?id=196657\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297170/mod_feedback/intro/1.actividad-interior.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/course/view.php?id=2501&amp;section=6\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297170/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n    <div class=\"col\" style=\"/* display: flex; *//* justify-content: flex-end; */\">\r\n        <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/quiz/view.php?id=195317\" style=\"text-decoration: none;\">\r\n            <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297170/mod_feedback/intro/3.siguiente-actividad.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n        </a>\r\n    </div>\r\n</div>\r\n\r\n\r\n<script>\r\n    (function() {\r\n        var sectionIds = ['page-header'];\r\n        sectionIds.forEach(function(sectionId) {\r\n            var element = document.getElementById(sectionId);\r\n            if (element) {\r\n                element.style.setProperty('display', 'none', 'important');\r\n            }\r\n        });\r\n    })();\r\n</script>\r\n<br>\r\n<h2 style=\"text-align: center;color: #00315f;\">Aprendizaje en acción</h2>\r\n<h2 style=\"text-align: center;color: #00315f;\">Caso 04</h2>\r\n<br>\r\n<iframe id=\"inlineFrameExample\" title=\"Inline Frame Example\" width=\"100%\" height=\"200\" src=\"https://formacionenservicio.minedu.gob.pe/cursos_2026/Programa-Formacion-de-Formadores/C1-Formacion-del-adulto-era-digital/FADEIA-Aprendizaje-en-accion-Caso04/\">\r\n</iframe>",
+            "introformat": 1,
+            "lang": "",
+            "anonymous": 2,
+            "email_notification": false,
+            "multiple_submit": false,
+            "autonumbering": false,
+            "site_after_submit": "",
+            "page_after_submit": "",
+            "page_after_submitformat": 1,
+            "publish_stats": false,
+            "timeopen": 0,
+            "timeclose": 0,
+            "timemodified": 1775085671,
+            "completionsubmit": false,
+            "coursemodule": 196659,
+            "introfiles": [
+                {
+                    "filename": "1.actividad-interior.png",
+                    "filepath": "/",
+                    "filesize": 10347,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297170/mod_feedback/intro/1.actividad-interior.png",
+                    "timemodified": 1775061568,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "2_siguiente-antividad.png",
+                    "filepath": "/",
+                    "filesize": 12293,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297170/mod_feedback/intro/2_siguiente-antividad.png",
+                    "timemodified": 1775061568,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "3.siguiente-actividad.png",
+                    "filepath": "/",
+                    "filesize": 11119,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297170/mod_feedback/intro/3.siguiente-actividad.png",
+                    "timemodified": 1775061568,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "4_actividad-anterior.png",
+                    "filepath": "/",
+                    "filesize": 11497,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297170/mod_feedback/intro/4_actividad-anterior.png",
+                    "timemodified": 1775061568,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "5_regresar-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 12295,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297170/mod_feedback/intro/5_regresar-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1775061568,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "Recurso 131.png",
+                    "filepath": "/",
+                    "filesize": 9354,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297170/mod_feedback/intro/Recurso%20131.png",
+                    "timemodified": 1775061568,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "volver-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 10215,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2297170/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1775061568,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                }
+            ]
+        },
+        {
+            "id": 22510,
+            "course": 2501,
+            "name": "Encuesta de satisfacción/",
+            "intro": "<section style=\"\r\n    background-image: url(https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253605/mod_feedback/intro/Fondo-total.png);\r\n    background-position: center;\r\n    background-repeat: no-repeat;\r\n    /* background-attachment: fixed; */\r\n    background-size: cover;\r\n\">\r\n    <br>\r\n    <div id=\"inst06\" class=\"row\" style=\"margin: 0;text-align: center;\">\r\n        <div class=\"col\">\r\n            <a href=\"https://campusvirtual-sifods.minedu.gob.pe/mod/quiz/view.php?id=195317\" style=\"text-decoration: none;\">\r\n                <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253605/mod_feedback/intro/1.actividad-interior.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n            </a>\r\n        </div>\r\n        <div class=\"col\">\r\n            <a href=\"https://campusvirtual-sifods.minedu.gob.pe/course/view.php?id=2501&amp;section=0\" style=\"text-decoration: none;\">\r\n                <img src=\"https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253605/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png\" alt=\"\" width=\"251\" height=\"54\" role=\"presentation\" class=\"img-fluid atto_image_button_text-bottom float-shadow-s5\">\r\n            </a>\r\n        </div>\r\n        <div class=\"col\" style=\"/* display: flex; *//* justify-content: flex-end; */\">\r\n\r\n        </div>\r\n    </div>\r\n\r\n\r\n    <script>\r\n        (function() {\r\n            var sectionIds = ['page-header'];\r\n            sectionIds.forEach(function(sectionId) {\r\n                var element = document.getElementById(sectionId);\r\n                if (element) {\r\n                    element.style.setProperty('display', 'none', 'important');\r\n                }\r\n            });\r\n        })();\r\n    </script>\r\n\r\n    <h2 style=\"text-align: center;color: #4c4c4c;padding: 1em 0;\">Encuesta de satisfacción<br></h2>\r\n\r\n\r\n\r\n\r\n</section>",
+            "introformat": 1,
+            "lang": "",
+            "anonymous": 2,
+            "email_notification": false,
+            "multiple_submit": false,
+            "autonumbering": false,
+            "site_after_submit": "",
+            "page_after_submit": "",
+            "page_after_submitformat": 1,
+            "publish_stats": false,
+            "timeopen": 0,
+            "timeclose": 0,
+            "timemodified": 1775600842,
+            "completionsubmit": true,
+            "coursemodule": 195320,
+            "introfiles": [
+                {
+                    "filename": "1.actividad-interior.png",
+                    "filepath": "/",
+                    "filesize": 10347,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253605/mod_feedback/intro/1.actividad-interior.png",
+                    "timemodified": 1771433516,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "2_siguiente-antividad.png",
+                    "filepath": "/",
+                    "filesize": 12293,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253605/mod_feedback/intro/2_siguiente-antividad.png",
+                    "timemodified": 1771433516,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "3_regresar-al-inicio.png",
+                    "filepath": "/",
+                    "filesize": 10901,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253605/mod_feedback/intro/3_regresar-al-inicio.png",
+                    "timemodified": 1771433516,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "4_actividad-anterior.png",
+                    "filepath": "/",
+                    "filesize": 11497,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253605/mod_feedback/intro/4_actividad-anterior.png",
+                    "timemodified": 1771433516,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "Fondo-total.png",
+                    "filepath": "/",
+                    "filesize": 120937,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253605/mod_feedback/intro/Fondo-total.png",
+                    "timemodified": 1771433516,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "Recurso 131.png",
+                    "filepath": "/",
+                    "filesize": 9354,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253605/mod_feedback/intro/Recurso%20131.png",
+                    "timemodified": 1771433516,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                },
+                {
+                    "filename": "volver-a-la-sesión.png",
+                    "filepath": "/",
+                    "filesize": 10215,
+                    "fileurl": "https://campusvirtual-sifods.minedu.gob.pe/webservice/pluginfile.php/2253605/mod_feedback/intro/volver-a-la-sesi%C3%B3n.png",
+                    "timemodified": 1771433516,
+                    "mimetype": "image/png",
+                    "isexternalfile": false
+                }
+            ]
+        }
+    ],
+    "warnings": []
+}
