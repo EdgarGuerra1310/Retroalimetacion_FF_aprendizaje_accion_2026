@@ -65,7 +65,7 @@ def obtener_evaluacion_existente(curid, quizid, user_id, intento, pregunta_id):
     cursor = conn.cursor()
 
     query = """
-    SELECT respuesta
+    SELECT gpt_evaluacion
     FROM evaluaciones_feedback
     WHERE curid = %s
     AND feedback_id = %s
