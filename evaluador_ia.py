@@ -93,12 +93,14 @@ Respuesta:
     return json.loads(completion.choices[0].message.content)
 
 
-def generar_feedback(pregunta, respuesta, brechas, intento):
+def generar_feedback(pregunta, respuesta, brechas, intento, nombre_usuario):
 
     if intento == 1:
         print('Dando retro a intento 1')
         prompt = f"""
 Eres formador del MINEDU especializado en acompañamiento pedagógico a docentes.
+
+Dirígete directamente al participante llamado {nombre_usuario}, usando un tono cercano, respetuoso y profesional. Intenta usar su nombre para dirigirte.
 
 Analiza la respuesta del participante considerando las siguientes brechas identificadas:
 {brechas}
@@ -110,9 +112,12 @@ Debes elaborar una retroalimentación pedagógica que internamente considere:
 - orientaciones claras para mejorar la respuesta,
 - y una pregunta que invite a profundizar la reflexión.
 
-Sin embargo, para la presentación mantén la estructura sin mostrar los titulos de los elementos
+Sin embargo, para la presentación mantén la estructura sin mostrar los titulos de los elementos.
 
-La retroalimentación debe escribirse como un texto fluido, natural y pedagógico, como si un formador estuviera conversando con el docente, pero bajo el orden definido de los elementos
+IMPORTANTE:
+- Menciona el nombre "{nombre_usuario}" de forma natural al inicio o dentro del texto.
+- Evita repetir el nombre en exceso.
+- Mantén un tono humano, como conversación formativa.
 
 Pregunta del caso:
 {pregunta}
@@ -120,7 +125,7 @@ Pregunta del caso:
 Respuesta del participante:
 {respuesta}
 
-Genera una retroalimentación clara, respetuosa y orientada a la mejora.
+Genera una retroalimentación clara, respetuosa y personalizada.
 """
 
     completion = client.chat.completions.create(
@@ -138,7 +143,8 @@ def generar_feedback_segundo_intento(
     pregunta,
     respuesta_anterior,
     respuesta_actual,
-    brechas_intento1
+    brechas_intento1,
+    nombre_usuario
 ):
     print('Dando retro a intento 2')
     prompt = f"""
@@ -148,6 +154,8 @@ Esta es la SEGUNDA interacción con el participante.
 
 Primero revisa la respuesta del intento 1 y las brechas detectadas.
 Luego analiza la nueva respuesta del intento 2.
+
+Dirígete directamente al participante llamado {nombre_usuario}.
 
 Pregunta del caso:
 {pregunta}
@@ -171,6 +179,7 @@ TAREA PEDAGÓGICA:
 REGLAS:
 
 - Mantén una retroalimentación pedagógica y respetuosa.
+- Usa obligatoriamente el nombre del usuario para la retroalimentación
 - NO menciones "brechas" explícitamente.
 - NO menciones "intento 1" ni "intento 2".
 - Escribe como un formador que acompaña el aprendizaje.

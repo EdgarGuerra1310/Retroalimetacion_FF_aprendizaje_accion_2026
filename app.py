@@ -234,7 +234,8 @@ def feedback_view():
                         pregunta,
                         respuesta,
                         eval_result.get("brechas", ""),
-                        intento_num
+                        intento_num,
+                        nombre_usuario
                     )
 
                     respuestas_por_pregunta[pregunta_id] = respuesta
@@ -249,7 +250,8 @@ def feedback_view():
                         pregunta,
                         respuesta_anterior,
                         respuesta,
-                        brechas_anteriores
+                        brechas_anteriores,
+                        nombre_usuario
                     )
 
                 # --------------------------------------------
