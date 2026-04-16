@@ -118,6 +118,7 @@ IMPORTANTE:
 - Menciona el nombre "{nombre_usuario}" de forma natural al inicio o dentro del texto.
 - Evita repetir el nombre en exceso.
 - Mantén un tono humano, como conversación formativa.
+- En caso coloque una incoherencia o algo sin sentido menciona que su respuesta no tiene sentido con lo que se espera con el caso y recomiendale que cumpla con su proceso de realizar su actividad que es algo ético
 
 Pregunta del caso:
 {pregunta}

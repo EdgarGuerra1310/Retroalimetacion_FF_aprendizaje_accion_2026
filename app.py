@@ -22,6 +22,55 @@ app = Flask(__name__)
 # ---------------------------------------------------
 # TRAER INTENTOS DEL QUIZ
 # ---------------------------------------------------
+def respuesta_invalida(respuesta):
+
+    if not respuesta:
+        return True
+
+    texto = respuesta.strip().lower()
+
+    # Muy corta
+    if len(texto) < 5:
+        return True
+
+    # Respuestas típicas vacías
+    respuestas_basura = ["ok", "si", "sí", "no", "nose", "no se", "nada"]
+    if texto in respuestas_basura:
+        return True
+
+    # Solo símbolos
+    if re.fullmatch(r"[\W_]+", texto):
+        return True
+
+    # 🔥 NUEVO: repetición de un solo carácter
+    if len(set(texto)) == 1 and len(texto) > 3:
+        return True
+
+    # Detectar texto tipo "asdfasdf", "qwerty"
+    letras = re.sub(r"[^a-z]", "", texto)
+    if len(letras) > 8:
+        vocales = sum(1 for c in letras if c in "aeiou")
+        ratio = vocales / len(letras)
+
+        if ratio < 0.2:
+            return True
+
+    return False
+
+def feedback_reconduccion(nombre_usuario):
+
+    return f"""
+{nombre_usuario}, parece que tu respuesta aún no desarrolla una idea clara sobre la situación planteada.
+
+Te animo a volver a leer el caso con atención y responder considerando:
+
+- ¿Qué está ocurriendo en la situación?
+- ¿Qué decisión pedagógica tomarías?
+- ¿Por qué sería pertinente en ese contexto?
+
+Intenta expresar tu idea con mayor claridad y detalle para poder acompañarte mejor en tu proceso de aprendizaje.
+"""
+
 
 def get_attempts(quizid, userid):
 
@@ -120,6 +169,7 @@ def feedback_view():
     id_user_moodle = request.args.get("id_user")
     quizid = request.args.get("feedbackid")
     nombre_usuario = request.args.get("nombre_usuario")
+    caso = request.args.get("caso")
 
     curid = request.args.get("curid")
     user_id = request.args.get("user_id")
@@ -181,6 +231,21 @@ def feedback_view():
             # --------------------------------------------
 
             respuesta = extraer_respuesta_estudiante(html)
+            
+            if respuesta_invalida(respuesta):
+
+                print("Respuesta inválida detectada")
+
+                feedback_texto = feedback_reconduccion(nombre_usuario)
+
+                results.append({
+                    "intento": intento_num,
+                    "pregunta": pregunta,
+                    "respuesta": respuesta,
+                    "feedback": feedback_texto
+                })
+
+                continue  # 🔥 IMPORTANTE: salta todo lo demás
 
             print("----------- RESPUESTA MOODLE -----------")
             print("Pregunta:", numero)
@@ -274,6 +339,7 @@ def feedback_view():
                     fecha
                 )
 
+                                               
             results.append({
                 "intento": intento_num,
                 "pregunta": pregunta,
@@ -289,11 +355,35 @@ def feedback_view():
 
     for r in results:
         resultados_por_intento[r["intento"]].append(r)
+
+
+    mapa_casos = {
+                    "1": {
+                        "izq": "https://campusvirtual-sifods.minedu.gob.pe/mod/quiz/view.php?id=197300",
+                        "der": "https://campusvirtual-sifods.minedu.gob.pe/mod/quiz/view.php?id=197301"
+                    },
+                    "2": {
+                        "izq": "https://campusvirtual-sifods.minedu.gob.pe/mod/quiz/view.php?id=197301",
+                        "der": "https://campusvirtual-sifods.minedu.gob.pe/mod/quiz/view.php?id=197302"
+                    },
+                    "3": {
+                        "izq": "https://campusvirtual-sifods.minedu.gob.pe/mod/quiz/view.php?id=197302",
+                        "der": "https://campusvirtual-sifods.minedu.gob.pe/mod/quiz/view.php?id=197021"
+                    },
+                    "4": {
+                        "izq": "https://campusvirtual-sifods.minedu.gob.pe/mod/quiz/view.php?id=197021",
+                        "der": "https://campusvirtual-sifods.minedu.gob.pe/mod/quiz/view.php?id=195317"
+                    }
+                }
+
+    links = mapa_casos.get(caso, {"izq": "#", "der": "#"})
         
     return render_template(
         "feedback.html",
         usuario=nombre_usuario,
-        resultados=resultados_por_intento
+        resultados=resultados_por_intento,
+        link_izq=links["izq"],
+        link_der=links["der"]
     )
 
 

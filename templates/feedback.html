@@ -79,6 +79,21 @@ display:block;
 Retroalimentación del Asistente Pedagógico
 </h2>
 
+<div class="d-flex justify-content-between align-items-center mb-3">
+
+    <!-- IZQUIERDA -->
+    <a href="{{ link_izq }}" target="_blank">
+        <img src="{{ url_for('static', filename='img/1.act-interior.png') }}" 
+             style="height:60px; cursor:pointer;">
+    </a>
+
+    <!-- DERECHA -->
+    <a href="{{ link_der }}" target="_blank">
+        <img src="{{ url_for('static', filename='img/2.siguient-actividad.png') }}" 
+             style="height:60px; cursor:pointer;">
+    </a>
+
+</div>
 
 <!-- BOTONES DE INTENTO -->
 
@@ -140,6 +155,8 @@ Intento {{intento}}
 </div>
 
 {% endfor %}
+
+<p> Me encuentro en proceso de entrenamiento. Tu interacción contribuirá a mejorar mi funcionamiento.</p>
 
 </div>
 
