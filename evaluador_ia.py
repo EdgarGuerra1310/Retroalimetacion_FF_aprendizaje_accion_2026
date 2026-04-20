@@ -245,13 +245,17 @@ REGLAS:
 
 SALIDA:
 
-Nivel: (Inicio / En desarrollo / Logrado / Destacado)
+Devuelve SOLO JSON válido:
 
-Retroalimentación:
-- Valoración inicial
-- Fundamentación conceptual
-- Orientaciones de mejora
-- Pregunta de profundización
+{{
+"analisis_problema": "Inicio/En desarrollo/Logrado/Destacado",
+"decision_pedagogica": "Inicio/En desarrollo/Logrado/Destacado",
+"fundamentacion": "Inicio/En desarrollo/Logrado/Destacado",
+"reflexion": "Inicio/En desarrollo/Logrado/Destacado",
+"contexto": "Inicio/En desarrollo/Logrado/Destacado",
+"nivel_global": "Inicio/En desarrollo/Logrado/Destacado",
+"brechas": "máximo 2 ideas de mejora"
+}}
 """
 
     completion = client.chat.completions.create(
@@ -263,18 +267,32 @@ Retroalimentación:
         temperature=0
     )
 
-    texto = completion.choices[0].message.content
+    contenido = completion.choices[0].message.content
+
+    try:
+        data = json.loads(contenido)
+    except:
+        print("Error parseando JSON:", contenido)
+        data = {
+            "analisis_problema": None,
+            "decision_pedagogica": None,
+            "fundamentacion": None,
+            "reflexion": None,
+            "contexto": None,
+            "nivel_global": None,
+            "brechas": ""
+        }
 
     # Extraer nivel automáticamente
-    nivel = "No identificado"
-
-    for n in ["Inicio", "En desarrollo", "Logrado", "Destacado"]:
-        if n.lower() in texto.lower():
-            nivel = n
-            break
+    
 
     return {
-        "similarity_score": None,
-        "nivel_estimado": nivel,
-        "brechas": texto,        
+    "similarity_score": None,
+    "nivel_estimado": data.get("nivel_global"),
+    "analisis_problema": data.get("analisis_problema"),
+    "decision_pedagogica": data.get("decision_pedagogica"),
+    "fundamentacion": data.get("fundamentacion"),
+    "reflexion": data.get("reflexion"),
+    "contexto": data.get("contexto"),
+    "brechas": data.get("brechas")
     }

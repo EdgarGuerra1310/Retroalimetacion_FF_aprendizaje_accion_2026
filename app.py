@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 from evaluador_ia import evaluar_respuesta
 from evaluador_ia import generar_feedback, generar_feedback_segundo_intento
 from db import guardar_evaluacion, obtener_evaluacion_existente
+from evaluador_ia import similitud
 from collections import defaultdict
 import os
 from dotenv import load_dotenv
@@ -238,6 +239,28 @@ def feedback_view():
 
                 feedback_texto = feedback_reconduccion(nombre_usuario)
 
+                # 🔥 GUARDAR TAMBIÉN RESPUESTAS INVÁLIDAS
+                guardar_evaluacion(
+                    curid,
+                    quizid,
+                    id_user_moodle,
+                    user_id,
+                    documento_identidad,
+                    intento_num,
+                    pregunta_id,
+                    pregunta,
+                    respuesta,
+                    0,
+                    "Inválido",
+                    feedback_texto,
+                    fecha,
+                    None,
+                    None,
+                    None,
+                    None,
+                    None
+                )
+
                 results.append({
                     "intento": intento_num,
                     "pregunta": pregunta,
@@ -245,7 +268,7 @@ def feedback_view():
                     "feedback": feedback_texto
                 })
 
-                continue  # 🔥 IMPORTANTE: salta todo lo demás
+                continue
 
             print("----------- RESPUESTA MOODLE -----------")
             print("Pregunta:", numero)
@@ -274,6 +297,10 @@ def feedback_view():
                 print("Retro ya existe en BD, no se genera nueva")
 
                 feedback_texto = feedback_guardado
+
+                # 🔥 ASEGURAR CONTEXTO PARA INTENTO 2
+                if intento_num == 1:
+                    respuestas_por_pregunta[pregunta_id] = respuesta
 
             else:
 
@@ -306,38 +333,106 @@ def feedback_view():
                     respuestas_por_pregunta[pregunta_id] = respuesta
                     brechas_por_pregunta[pregunta_id] = eval_result.get("brechas", "")
 
+                    # 🔥 GUARDAR INTENTO 1
+                    guardar_evaluacion(
+                        curid,
+                        quizid,
+                        id_user_moodle,
+                        user_id,
+                        documento_identidad,
+                        intento_num,
+                        pregunta_id,
+                        pregunta,
+                        respuesta,
+                        eval_result.get("similarity_score"),
+                        eval_result.get("nivel_estimado"),
+                        feedback_texto,
+                        fecha,
+                        eval_result.get("analisis_problema"),
+                        eval_result.get("decision_pedagogica"),
+                        eval_result.get("fundamentacion"),
+                        eval_result.get("reflexion"),
+                        eval_result.get("contexto")
+                    )
+
                 else:
 
                     respuesta_anterior = respuestas_por_pregunta.get(pregunta_id, "")
                     brechas_anteriores = brechas_por_pregunta.get(pregunta_id, "")
 
-                    feedback_texto = generar_feedback_segundo_intento(
-                        pregunta,
-                        respuesta_anterior,
-                        respuesta,
-                        brechas_anteriores,
-                        nombre_usuario
-                    )
+                    # 🔥 NUEVO: calcular similitud entre intento 1 y 2
+                    sim_resp = similitud(respuesta, respuesta_anterior)
 
-                # --------------------------------------------
-                # GUARDAR EN BD
-                # --------------------------------------------
+                    print("Similitud intento 1 vs 2:", sim_resp)
 
-                guardar_evaluacion(
-                    curid,
-                    quizid,
-                    id_user_moodle,
-                    user_id,
-                    documento_identidad,
-                    intento_num,
-                    pregunta_id,
-                    pregunta,
-                    respuesta,
-                    eval_result.get("similarity_score"),
-                    eval_result.get("nivel_estimado"),
-                    feedback_texto,
-                    fecha
-                )
+                    # 🔥 SI ES MUY PARECIDA → feedback especial
+                    if sim_resp > 0.90:
+
+                        print("Respuesta repetida detectada")
+
+                        feedback_texto = f"""
+                    {nombre_usuario}, noto que tu respuesta es muy similar a la que brindaste anteriormente.
+
+                    Esto indica que aún no has incorporado mejoras a partir de la retroalimentación recibida. Te invito a revisar nuevamente el caso y considerar las orientaciones brindadas.
+
+                    Recuerda que este proceso busca que puedas reflexionar, ajustar tu análisis y fortalecer tu propuesta pedagógica.
+
+                    ¿Qué podrías cambiar o profundizar en tu respuesta para que sea más pertinente al contexto planteado?
+                    """
+
+                        # 🔥 GUARDAR RESPUESTA REPETIDA
+                        guardar_evaluacion(
+                            curid,
+                            quizid,
+                            id_user_moodle,
+                            user_id,
+                            documento_identidad,
+                            intento_num,
+                            pregunta_id,
+                            pregunta,
+                            respuesta,
+                            sim_resp,
+                            "Repetido",
+                            feedback_texto,
+                            fecha,
+                            eval_result.get("analisis_problema"),
+                            eval_result.get("decision_pedagogica"),
+                            eval_result.get("fundamentacion"),
+                            eval_result.get("reflexion"),
+                            eval_result.get("contexto")
+                        )
+
+                    else:
+
+                        feedback_texto = generar_feedback_segundo_intento(
+                            pregunta,
+                            respuesta_anterior,
+                            respuesta,
+                            brechas_anteriores,
+                            nombre_usuario
+                        )
+
+                        # 🔥 GUARDAR RESPUESTA NORMAL DE INTENTO 2
+                        guardar_evaluacion(
+                            curid,
+                            quizid,
+                            id_user_moodle,
+                            user_id,
+                            documento_identidad,
+                            intento_num,
+                            pregunta_id,
+                            pregunta,
+                            respuesta,
+                            sim_resp,
+                            "Procesado",
+                            feedback_texto,
+                            fecha,
+                            eval_result.get("analisis_problema"),
+                            eval_result.get("decision_pedagogica"),
+                            eval_result.get("fundamentacion"),
+                            eval_result.get("reflexion"),
+                            eval_result.get("contexto")
+                        )               
 
                                                
             results.append({

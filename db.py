@@ -26,7 +26,12 @@ def guardar_evaluacion(
     similarity_score,
     nivel_estimado,
     gpt_evaluacion,
-    fecha_respuesta
+    fecha_respuesta,
+    analisis_problema=None,
+    decision_pedagogica=None,
+    fundamentacion=None,
+    reflexion=None,
+    contexto=None
 ):
 
     conn = get_conn()
@@ -35,10 +40,15 @@ def guardar_evaluacion(
     cur.execute("""
         INSERT INTO evaluaciones_feedback
         (curid, feedback_id, id_user_moodle, user_id, documento_identidad,
-         intento, pregunta_id, pregunta, respuesta,
-         similarity_score, nivel_estimado, gpt_evaluacion,
-         fecha_respuesta)
-        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+        intento, pregunta_id, pregunta, respuesta,
+        similarity_score, nivel_estimado, gpt_evaluacion,
+        fecha_respuesta,
+        analisis_problema,
+        decision_pedagogica,
+        fundamentacion,
+        reflexion,
+        contexto)
+        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
     """, (
         curid,
         feedback_id,
@@ -52,7 +62,12 @@ def guardar_evaluacion(
         similarity_score,
         nivel_estimado,
         gpt_evaluacion,
-        fecha_respuesta
+        fecha_respuesta,
+        analisis_problema,
+        decision_pedagogica,
+        fundamentacion,
+        reflexion,
+        contexto
     ))
 
     conn.commit()
